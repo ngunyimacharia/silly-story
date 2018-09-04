@@ -27,7 +27,7 @@ function result() {
 
   if(customName.value !== '') {
     var name = customName.value;
-    newStory.replace('Bob',name);
+    newStory = newStory.replace('Bob',name);
 
   }
   if(document.getElementById("uk").checked) {
